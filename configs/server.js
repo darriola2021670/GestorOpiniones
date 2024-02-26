@@ -13,6 +13,7 @@ class Server{
         this.app = express();
         this.port = process.env.PORT;
 
+
         this.middlewares();
         this.conectarDB();
         this.routes();
